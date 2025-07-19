@@ -1,0 +1,35 @@
+:root {
+  /* COLORS */
+  --black: #000000;
+  --dark-blue: #202336;
+  --orange: #FB8F1D;
+  --dark-gray: #848484;
+  --gray-desciption: #7D7987;
+
+  /* FONTS */
+  --mulish-font: "Mulish", sans-serif;
+  --playfair-font: "Playfair Display", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
