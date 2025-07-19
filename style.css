@@ -39,50 +39,52 @@ body {
   margin: 0 auto;
 }
 
-.header{
+.header {
   margin-top: 35px;
 }
 
-.header__inner{
+.header__inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header__right{
+.header__right {
   display: flex;
   align-items: center;
 }
 
-.menu{
+.menu {
   display: flex;
   gap: 35px;
   margin-right: 34px;
 }
 
-.menu__item a{
+.menu__item a {
   color: #B8BECD;
 }
 
-.menu__item a:hover{
+.menu__item a:hover {
   color: var(--dark-blue);
 }
 
-.header__btns{
+.header__btns {
   display: flex;
   gap: 18px;
 }
 
-.primary__btn{
+.primary__btn {
   width: 132px;
   height: 44px;
   border-radius: 8px;
   color: #fff;
   background-color: var(--orange);
+  cursor: pointer;
 }
 
-.header__btn{
+.header__btn {
   background-color: #fff;
   border: 1px solid var(--orange);
   color: var(--orange);
+  cursor: pointer;
 }
