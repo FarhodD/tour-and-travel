@@ -93,33 +93,37 @@ body {
 
 
 .explore__world{
-    margin-top: 270px;
-    margin-bottom: 262px;
-    
+    padding-top: 270px;
+    padding-bottom: 262px;
 }
 
 .world__inner{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .world__right{
-  margin: 96px 0 105px 72px  ;
-  width: 481px;
+  max-width: 481px;
 }
 
-.world__title{
+.world__title,
+.guides__title {
   font-family: var(--playfair-font);
   font-size: 36px;
   color: var(--black);
   margin-bottom: 20px;
+  line-height: 50px;
+  text-align: left;
 }
 
-.world__text{
+.world__text,
+.guides__text{
   font-family: var(--mulish-font);
   color: var(--gray-desciption);
   font-size: 17px;
-  max-width: 450px;
   line-height: 30px;
+  text-align: left;
 }
 
 .world__btn{
@@ -134,4 +138,37 @@ body {
 .logo-2{
   margin-bottom: auto;
   margin-left: 26px;
+}
+
+.guides{
+  margin-bottom: 248px;
+}
+
+.guides__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.guides__right{
+   max-width: 481px;
+}
+
+.logo-4{
+  margin-bottom: 47px;
+  margin-left: 49px;
+}
+
+.guides__title{
+  margin-bottom: 20px;
+}
+
+.guides__text{
+  max-width: 450px;
+  margin-bottom: 39px;
+}
+
+.logo-5{
+   margin-left: 252px;
+   margin-bottom: 9px;
 }
