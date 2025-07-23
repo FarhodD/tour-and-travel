@@ -140,6 +140,68 @@ body {
   margin-left: 26px;
 }
 
+.destination{
+  padding-bottom: 290px;
+}
+
+.destination__top{
+  padding-bottom: 56px;
+}
+
+.destination__bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-container-destination {
+  position: relative;
+  width: 261px;
+  height: 332px;
+}
+
+.destination__img{
+  border-radius: 8px;
+}
+
+.text__overlay-top {
+  position: absolute;
+  font-size: 18px;
+  line-height: 30px;
+  width: 120px;
+  height: 60px;
+  text-align: left;
+  /* top: 66%; */
+  transform: translate(0%, -99%);
+  background-color: #fff;
+  font-weight: bold;
+  border-top-right-radius: 7px;
+  padding-top: 12px;
+  padding-right: 20px;
+}
+
+.text__overlay-bottom {
+  position: absolute;
+  font-size: 15px;
+  line-height: 30px;
+  max-width: 261px;
+  /* height: 70px; */
+  text-align: left;
+  /* top: 66%; */
+  transform: translate(0%, -85%);
+  background-color: #fff;
+  color: var(--gray-desciption);
+  font-weight: light;
+}
+
+
+
+
+
+
+
+
+
 .guides{
   margin-bottom: 248px;
 }
@@ -177,20 +239,23 @@ body {
   padding-bottom: 300px;
 }
 
-.stories__top{
+.stories__top,
+.destination__top{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.stories__title{
+.stories__title,
+.destination__title{
    font-size: 36px;
    color: var(--dark-blue);
    font-family: var(--playfair-font);
    font-weight: bold;
 }
 
-.stories__link{
+.stories__link,
+.destination__link{
   color: var(--orange);
   font-size: 17px;
   font-weight: bold;
@@ -254,9 +319,10 @@ body {
 }
 
 .footer__top{
-  display: flex;
+   display: flex;
    padding-bottom: 81px;
    padding-top: 70px;
+   justify-content: space-between;
 }
 
 
@@ -286,13 +352,31 @@ body {
  
 }
 
-.footer__right{
-  
-  
+.footer__menu-title{
+  font-family: var(--mulish-font);
+  font-size: 19px;
+  color: var(--black);
+  font-weight: bold;
+  padding-bottom: 30px;
 }
 
-.footer__menu-list{
+.footer__menu-item{
+  font-family:var(--mulish-font);
+  font-size: 18px;
+  line-height: 38px;
+  font-weight: light;
+  color: var(--dark-gray);
+}
 
+.footer__menu-link{
+  font-family: var(--dark-gray);
+  color: var(--dark-gray);
+}
+
+
+.footer__menu-item{
+  display: flex;
+  flex-direction: column;
 }
 
 
