@@ -38,6 +38,7 @@ body {
   max-width: 1220px;
   margin: 0 auto;
 }
+
 .container-2 {
   max-width: 1120px;
   margin: 0 auto;
@@ -120,11 +121,6 @@ body {
   color: var(--dark-blue);
 }
 
-.holiday__title {
-  margin-bottom: 21px;
-  color: var(--dark-blue);
-}
-
 .holiday__line {
   width: 32px;
   height: 2px;
@@ -201,12 +197,7 @@ body {
 
 .world__title,
 .guides__title {
-  font-family: var(--playfair-font);
-  font-size: 36px;
-  color: var(--black);
   margin-bottom: 20px;
-  line-height: 50px;
-  text-align: left;
 }
 
 .world__text,
@@ -256,34 +247,30 @@ body {
   border-radius: 8px;
 }
 
-.text__overlay-top {
+.text__overlay {
   position: absolute;
-  font-size: 18px;
-  line-height: 30px;
+  bottom: 0;
   width: 120px;
   height: 60px;
-  text-align: left;
-  /* top: 66%; */
-  transform: translate(0%, -99%);
   background-color: #fff;
-  font-weight: bold;
   border-top-right-radius: 7px;
   padding-top: 12px;
   padding-right: 20px;
 }
 
+.text__overlay-top,
 .text__overlay-bottom {
-  position: absolute;
+  line-height: 24px;
+}
+
+.text__overlay-top {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text__overlay-bottom {
   font-size: 15px;
-  line-height: 30px;
-  max-width: 261px;
-  /* height: 70px; */
-  text-align: left;
-  /* top: 66%; */
-  transform: translate(0%, -85%);
-  background-color: #fff;
-  color: var(--gray-desciption);
-  font-weight: light;
+  color: #80918E;
 }
 
 .guides {
@@ -305,10 +292,6 @@ body {
   margin-left: 49px;
 }
 
-.guides__title {
-  margin-bottom: 20px;
-}
-
 .guides__text {
   max-width: 450px;
   margin-bottom: 39px;
@@ -328,14 +311,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.stories__title,
-.destination__title {
-  font-size: 36px;
-  color: var(--dark-blue);
-  font-family: var(--playfair-font);
-  font-weight: bold;
 }
 
 .stories__link,
@@ -483,12 +458,6 @@ body {
   padding: 200px 0;
 }
 
-.testimoniaals__title {
-  font-family: var(--playfair-font);
-  font-weight: 700;
-  font-size: 36px;
-}
-
 .swiper-slide__stars {
   display: flex;
   align-items: center;
@@ -590,4 +559,12 @@ body {
 .swiper-slide__right-el2 {
   position: absolute;
   bottom: 0;
+}
+
+.section__title {
+  font-family: var(--playfair-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  color: var(--black);
 }
