@@ -6,3 +6,11 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+
+const btn = document.querySelector('.menu-btn')
+const header__inner = document.querySelector('.header__inner')
+
+btn.addEventListener('click', ()=>{
+header__inner.classList.toggle('menu-open');
+});
